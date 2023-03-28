@@ -15,8 +15,8 @@ function test(title, callback) {
     callback()
     console.log(`✅ ${title}`)
   } catch (error) {
-    console.error(error)
     console.error(`❌ ${title}`)
+    console.error(error)
   }
 }
 
