@@ -10,9 +10,9 @@ test('adds 3 + 4 to equal 7', () => {
   expect(sum(3, 4)).toBe(8)
 })
 
-function test(title, callback) {
+async function test(title, callback) {
   try {
-    callback()
+    await callback()
     console.log(`✅ ${title}`)
   } catch (error) {
     console.error(`❌ ${title}`)
