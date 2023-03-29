@@ -1,14 +1,14 @@
 // テストする関数
-function sum(a, b) {
+function sumTest(a, b) {
   return a + b
 }
 
 // テストケース
 test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3)
+  expect(sumTest(1, 2)).toBe(3)
 })
 test('adds 3 + 4 to equal 7', () => {
-  expect(sum(3, 4)).toBe(8)
+  expect(sumTest(3, 4)).toBe(8)
 })
 
 // テスト処理の実装
