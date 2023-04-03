@@ -1,7 +1,6 @@
-function hello(text) {
+export function hello(text: string): string {
   if (text) {
     return `Hello ${text}`
   }
   return 'Hello'
 }
-module.exports = hello
