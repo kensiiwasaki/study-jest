@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { FC, useState } from 'react'
 
-export const SimpleButton: () => JSX.Element = () => {
+export const SimpleButton: FC = () => {
   const [state, setState] = useState(false)
   const handleClick = () => {
     setState((prevState) => !prevState)
