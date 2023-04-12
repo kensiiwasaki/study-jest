@@ -2,6 +2,7 @@ import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { SimpleButton } from './components/SimpleButton'
+import { SearchForm } from './components/SearchForm'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <SimpleButton />
+        <SearchForm />
       </header>
     </div>
   )
