@@ -3,7 +3,7 @@ import '@testing-library/jest-dom/extend-expect'
 import userEvent from '@testing-library/user-event'
 import { SearchForm } from './SearchForm'
 
-describe('input form onchange event', () => {
+describe('input form onchange and button onclick event', () => {
   it('input test', () => {
     render(<SearchForm />)
     const inputValue = screen.getByRole('textbox') as HTMLInputElement
