@@ -6,9 +6,14 @@ export const SearchForm: FC = () => {
     setValue(e.target.value)
   }
 
+  const onclick = () => {
+    setValue('')
+  }
+
   return (
     <>
       <input type="text" onChange={onchange} value={value} />
+      <button onClick={onclick}>検索</button>
     </>
   )
 }
