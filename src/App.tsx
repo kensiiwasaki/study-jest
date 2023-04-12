@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './logo.svg'
 import './App.css'
-import { SimpleButton } from './SimpleButton'
+import { SimpleButton } from './components/SimpleButton'
 
 function App() {
   return (
